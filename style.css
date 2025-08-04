@@ -5,7 +5,6 @@
     padding: 0;
 }
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -16,7 +15,7 @@ body{
 }
 
 .apresentacao {
-    margin: 10%;
+    padding:8% 15% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,6 +54,9 @@ body{
 }
 
 .apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -67,8 +69,23 @@ body{
     font-weight: 600px;
 }
 
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
 .apresentacao__imagem{
     width: 490px;
     height: 550px;
     border-radius: 16px;
 }
+
+.rodape{
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
